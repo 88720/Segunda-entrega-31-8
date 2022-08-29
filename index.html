@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Club Atlético</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="titulo">CLUB ATLÉTICO</h1>
+    <h2 id="subtitulo">El club de la familia</h2>
+    <hr />
+    <p id="parrafo">
+      En el club te esperamos con variadas actividades para disfutar de nuestras
+      renovadas instalaciones
+    </p>
+    <h2 id="subtitulo">
+      En esta página del club podrás buscar tu actividad favorita!!
+    </h2>
+    <div id="nombre">"Bienvenido! Por favor decinos tu nombre"</div>
+    <input id= "nombre1" placeholder="Nombre y Apellido" type="text"></input>
+    <input Type="button" Value="confirmar" onClick="return saludo()">
+    <div id="socio"></div>
+    <input id= "socio1" placeholder="si / no" type="text"></input>
+    <input Type="button" Value="confirmar" onClick="return socio()">
+    <div id="actSocio"></div>
+    <div id="contacto"></div>
+    <div id="noSocio"></div>
+
+    <div id="pregunta"></div>
+    <input id= "pregunta1" placeholder="Ingresá un numero" type="number"></input>
+    <input Type="button" Value="confirmar"onClick="return pregunta()">
+
+    <div id="busc"></div>
+    <input id= "buscar" placeholder= "Ingresá un numero" type="number"></input>
+    <input Type="button" Value="confirmar"onClick="return buscar()">
+    
+    <div id="final"></div>
+    <input id="final1" placeholder="¿Querés buscar otra vez?. Marcá 1 si querés filtrar resultados o 2 si querés salir" type="number"></input>
+    <input Type="button" Value="confirmar" onClick="return final()">
+    
+    <div id="completo"></div>
+    <div id="actividades"></div>
+    <div id="saludo"></div>
+    <hr />
+    <div>
+      <h3 id="anuncio">Noticias</h3>
+      <h3 id="anuncio">Torneos</h3>
+      <h3 id="anuncio">Staff</h3>
+      <h3 id="anuncio">Próximos eventos</h3>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
